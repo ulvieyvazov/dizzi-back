@@ -5,6 +5,8 @@ import Detail from "../Pages/Client/Detail/DetailPage"
 
 import AdminRoot from "../Pages/Admin/AdminRoot"
 import AddProduct from "../Pages/Admin/AddProduct"
+import Login from "../login/Login"
+import Signup from "../register"
 
 
 
@@ -26,8 +28,17 @@ export const ROUTES = [
                 path: "/detail",
                 element: <Detail />
             },
+            {
+                path: "/login",
+                element: <Login/>
+            },
+            {
+                path: "/register",
+                element: <Signup/>
+            }
         ]
     },
+
 
     {
         path: "/admin",
